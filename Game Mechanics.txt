@@ -1,0 +1,32 @@
+
+COP THE CARD! A 2 Player Reaction Game by Michel Eirene I. Catienza
+
+Requirements:
+
+    Python version 3.12.2
+    Pygame version 2.5.2
+
+To play, run the mainCode.py file. Thanks!
+
+#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#
+
+CONTROLS:
+
+	Player 1 - 'A' to draw card, 'S' to cop card
+
+	Player 2 - 'K' to draw card, 'L' to cop card
+
+
+#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#
+
+MECHANICS:
+
+Each player has a deck of 25 cards. Each player will take turns
+drawing from their deck and placing their card into the pile. if
+the card is the same number as the previous draw, players will
+have a chance to grab (or "cop") the card on the pile. First
+player to cop the card gets the whole pile.
+
+If a player reaches 0 cards, the game ends and the player
+with the most cards wins!
+
